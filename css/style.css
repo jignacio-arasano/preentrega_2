@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: rgb(30, 194, 194);
+    
+}
+
+
+ul li a{
+    font-size: 1.1em;
+}
+ .navbar ul li a:hover{
+    font-weight: 900;
+    color: rgb(87, 82, 84);
+}
+ul li a::before{
+    content: "";
+    height: 3px;
+    width: 100%;
+    background: black;
+    position: absolute;
+
+}
+
+nav img{
+    width: 4.5em;
+}
+
+h1,h2,h3{
+    color: rgb(20, 255, 184);
+}
+
+p{
+    color: #666666;
+    display: block;
+}
+.bg-mi{
+    background-color: rgb(30, 194, 194);
+    
+}
+
+footer img{
+    width: 3em;
+}
+.fontw p{
+    font-weight: 800;
+}
+.backGround{
+    background-color: aliceblue;
+}
+main img:hover{
+    border: 5px solid #f7f7f7;
+}
+
+article img{width: 100%;
+}
+
+ #bloque img:hover{
+    border: 5px solid #f7f7f7;
+}
+
+.laCasa p{
+    font-size: 1.5em;
+}
+
+.cuartos{
+   background-color: rgb(136, 215, 221);
+}
+
+div.cuartos h1{
+    color: rgb(26, 127, 131);
+}
+
+article{
+    background-color:rgb(1, 148, 158) ;
+}
+
+
