@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+  color: rgb(20, 255, 184);
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+p {
+  color: #ffffff;
+  display: block;
+  font-size: 1.2em;
+}
+
+.fontw {
+  font-weight: 800;
+}
+
+.bold {
+  color: black;
+}
+
+div.cuartos h1 {
+  color: rgb(26, 127, 131);
+}
+
+.navbar {
+  background-color: rgb(30, 194, 194);
+}
+.navbar ul li a {
+  font-size: 1.1em;
+  position: relative;
+}
+.navbar ul li a:hover {
+  font-weight: 900;
+  color: rgb(87, 82, 84);
+}
+.navbar ul li a::before {
+  content: "";
+  height: 3px;
+  width: 0%;
+  background: black;
+  position: absolute;
+  left: 0px;
+  bottom: -4px;
+  transition: 0.75s ease-out;
+}
+.navbar ul li a:hover::before {
+  width: 75%;
+}
+.navbar img {
+  width: 4.5em;
+}
+
+.backGround {
+  background-color: aliceblue;
+}
+
+main img:hover {
+  border: 7.5px solid #f7f7f7;
+  transition: all 1s;
+}
+
+#bloque img:hover {
+  border: 7.5px solid #f7f7f7;
+  transition: all 1s;
+}
+
+.cuartos {
+  background-color: rgb(136, 215, 221);
+}
+
+div.cuartos h1 {
+  color: rgb(26, 127, 131);
+}
+
+article {
+  background-color: rgb(1, 148, 158);
+}
+article img {
+  width: 100%;
+}
+
+.bg-mi {
+  background-color: rgb(30, 194, 194);
+}
+
+img {
+  width: 3em;
+}/*# sourceMappingURL=main.css.map */

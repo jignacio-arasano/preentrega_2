@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3{
+    color: $mainfontcolor;
+}
+h1{
+    font-size: $h1 ;
+}
+h2{
+    font-size: $h2;
+}
+p{
+    color: #ffffff;
+    display: block;
+    font-size: $p ;
+}
+
+.fontw {
+        font-weight: 800;
+    }
+
+.bold{
+        color: black;
+    }
+
+div.cuartos h1{
+    color: rgb(26, 127, 131);
+}
