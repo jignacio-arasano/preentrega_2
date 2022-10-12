@@ -5,3 +5,8 @@ $mainfontcolor: rgb(20, 255, 184);
 $h1: 2.5em;
 $h2: 1.8em;
 $p: 1.2em;
+@mixin texto ($fontsize, $color){
+    font-family: 'Roboto', sans-serif;
+    font-size: $fontsize;
+    color: $color;
+}

@@ -3,19 +3,16 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-h1,h2,h3{
-    color: $mainfontcolor;
-}
+
+
 h1{
-    font-size: $h1 ;
+    @include texto ($h1, $mainfontcolor);
 }
 h2{
-    font-size: $h2;
+    @include texto ($h2, $mainfontcolor);
 }
 p{
-    color: #ffffff;
-    display: block;
-    font-size: $p ;
+    @include texto ($p, #ffffff );
 }
 
 .fontw {
